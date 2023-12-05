@@ -1,0 +1,41 @@
+#swrapper {
+    display:gird; 
+    height: 400vh;
+    grid-template-columns: 25% 30% 25%;
+    grid-template-rows: 20% 20% 40% 20%;
+    display: grid;
+    column-gap: 2rm;
+    row-gap: 2rm;
+    grid-template-areas:
+    'header' 'header' 'header'
+    'nav' 'nav' 'nav' 
+    'main' 'main' 'main'
+    'footer' 'footer' 'footer'
+}
+
+html { 
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #3498db;
+
+
+}
+  
+
+header {
+    background-color: antiquewhite;
+}
+
+nav {
+    background-color: antiquewhite;
+}
+
+main {
+    background-color: antiquewhite;
+}
+
+footer {
+    background-color: antiquewhite;
+}
