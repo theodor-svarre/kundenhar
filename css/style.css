@@ -1,12 +1,3 @@
-#wrapper {
-    display:grid; 
-    grid-template-areas:
-    'nav' 
-    'header'
-    'main'
-    'footer';
-}
-
 html { 
     scroll-behavior: smooth;
 }
@@ -15,7 +6,6 @@ body {
     background-color: #3498db;
     margin: 0;
     opacity: 0.9;
-
 }
   
 nav {
@@ -36,6 +26,7 @@ nav {
     border-radius: 10px;
     border: 2.5px solid #F0EAD6;
     transition: transform 0.5s ease-in-out;
+    font-family: 'Times New Roman';
     
 }
 .btn:hover {
@@ -58,17 +49,59 @@ header {
     background-color: #F0EAD6;
     height: 25rem;
     min-height: 25rem;
-    width: 50rem;
+    width: 70rem;
     display: flex;
     justify-content: center;
-    align-items: center;
-    border-radius: 20px;
+    align-items: last baseline;
+    padding-bottom: 75px;
+    border-radius: 30px;
     font-size: 20px;
+    opacity: 0.9;
 }
+
+
+.headerbox input[type=text] {
+    padding: 10px;
+    margin-top: 8px;
+    font-size: 20px;
+    border: none;
+    font-family: 'Times New Roman';
+    height: 20px;
+    align-self: center;
+    opacity: 1;
+    background: snow;
+  }
+
+
+  .searchbar{
+    transition: transform 0.5s ease-in-out;
+  }
+
+  .searchbar:hover{
+    transform: scale(1.1);
+  }
+
+.searchbar button {
+    float: right;
+    height: 40px;
+    width: 40px;
+    margin-top: 8px;
+    background-color: lightgray;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    opacity: 1;
+
+  } 
+
+  .searchbar button:hover {
+    background-color: gray;
+  }
+
+  
 
 main {
     background-color:  #F0EAD6;
-    grid-area: main;
     height: 100vh; 
     opacity: 0.9;
 }
