@@ -49,8 +49,9 @@ header {
     font-size: 20px;
     justify-content: center;
     align-items: center;
+}
 
-
+.logo img {
 }
 
 .headerbox .logo {
@@ -58,17 +59,15 @@ header {
 }
 
 .headerbox {
-    background-color: #F0EAD6;
+    background-color: rgba(255, 255, 255, 0.9);
     height: 25rem;
     min-height: 25rem;
     width: 70rem;
     display: flex;
     justify-content: center;
-    align-items: last baseline;
     padding-bottom: 35px;
     border-radius: 30px;
     font-size: 20px;
-    opacity: 0.9;
     flex-direction: column;
     align-items: center;
 }
@@ -82,7 +81,6 @@ header {
     font-family: 'Times New Roman';
     height: 20px;
     align-self: center;
-    opacity: 1;
     background: snow;
   }
 
@@ -104,8 +102,6 @@ header {
     font-size: 20px;
     border: none;
     cursor: pointer;
-    opacity: 1;
-
   } 
 
   .searchbar button:hover {
@@ -115,10 +111,21 @@ header {
   
 
 main {
-    background-color:  #F0EAD6;
+    background-color: rgba(255, 255, 255, 0.9);
     height: 100vh; 
-    opacity: 0.9;
+    display: grid;
+    place-items: center;
+    
 }
+
+.imagemain {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%; 
+}
+
+
+
 
 footer {
     background-color: #3498db;
