@@ -51,11 +51,9 @@ header {
     align-items: center;
 }
 
-.logo img {
-}
 
-.headerbox .logo {
-    margin-bottom: 20px; /* Adjust as needed */
+.logo {
+    margin-bottom: 20px; 
 }
 
 .headerbox {
@@ -93,7 +91,7 @@ header {
     transform: scale(1.1);
   }
 
-.searchbar button {
+  .searchbar button {
     float: right;
     height: 40px;
     width: 40px;
@@ -113,19 +111,36 @@ header {
 main {
     background-color: rgba(255, 255, 255, 0.9);
     height: 100vh; 
-    display: grid;
-    place-items: center;
     
 }
 
-.imagemain {
-    display: flex;
-    justify-content: space-evenly;
-    width: 100%; 
-    
+.cards {
+  position: relative;
+  display: inline-block;
+
 }
 
 
+.container {
+    position: absolute;
+    top: 85%; 
+    left: 25%; 
+    transform: translate(-50%, -50%); 
+    color: white ; 
+    padding: 10px 20px; 
+    font-size: 20px; 
+    text-align: center;
+    font-size: 2vh;
+}
+
+.container h1 {
+    margin-bottom: 5px;
+}
+
+.container h2 {
+    margin-top: 5px;
+    font-size: 20px;
+}
 
 
 footer {
