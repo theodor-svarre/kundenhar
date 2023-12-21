@@ -143,6 +143,9 @@
     margin-left: auto;
     margin-right: auto;
     border-radius: 30px;
+    box-shadow: 0 20px 40px 0 rgba(0, 0, 0, 0.5);
+
+
  }
 
  .aboutmainrubrik {
@@ -259,7 +262,7 @@ body {
 }
 
  nav {
-    background-color: #2b6992b8;
+    background-color: hsla(204, 54%, 37%, 0.722);
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -269,10 +272,10 @@ body {
 
  .btn{
     text-decoration: none;
-    color: #F0EAD6;
+    color: snow;
     padding: 2.5px 5px;
     border-radius: 10px;
-    border: 2.5px solid #F0EAD6;
+    border: 2.5px solid snow;
     transition: transform 0.5s ease-in-out;
     font-family: 'Times New Roman';
  }
